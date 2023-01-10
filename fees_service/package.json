@@ -1,0 +1,23 @@
+{
+  "name": "fees_service",
+  "version": "1.0.0",
+  "description": "Fee service for school management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Educational_Management_System"
+  },
+  "keywords": [
+    "nodejs",
+    "microservice",
+    "express"
+  ],
+  "author": "questertech-co",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
