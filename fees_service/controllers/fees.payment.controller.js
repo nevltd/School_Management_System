@@ -1,4 +1,4 @@
-const publisher = require('../transactions/publisher')
+const publisher = require('../transaction/publisher');
 module.exports = {
     updatePaymentTerm:'',//create function
     updatePayment: (studentId)=>{
