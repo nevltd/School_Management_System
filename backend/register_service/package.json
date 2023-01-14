@@ -1,0 +1,30 @@
+{
+  "name": "register_service",
+  "version": "1.0.0",
+  "description": "This service handles session records and attendance of student and staff",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Educational_Management_System\\"
+  },
+  "keywords": [
+    "microservice",
+    "nodejs",
+    "express",
+    "register\\tservice"
+  ],
+  "author": "questertech-co",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pg": "^8.8.0",
+    "postgres": "^3.3.3",
+    "sequelize": "^6.28.0"
+  }
+}

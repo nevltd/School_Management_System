@@ -1,0 +1,31 @@
+{
+  "name": "parent_service",
+  "version": "1.0.0",
+  "description": "parent service for school management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Education_Management_System"
+  },
+  "keywords": [
+    "School",
+    "managemet",
+    "app",
+    "system"
+  ],
+  "author": "questertech-co",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.20",
+    "postgres": "^3.3.3",
+    "request": "^2.88.2"
+  }
+}
