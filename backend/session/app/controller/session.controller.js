@@ -20,17 +20,19 @@ module.exports = {
     createSession: async (request, response) => {
         const from = request.from
         const to = request.to
-
+        const numberOfTerms = request.body.numberOfTerms
         const session = await Session.create({
             from: from,
             to: to,
         })
-
+        for(i = 1;i<=numberOfTerms,i++){}
+        if (i%3 == 1){
         const firstTerm = await Term.create({
             term: 'First',
             sessionId: session.id
         })
-
+    }
+        else if//use Switch statement
         const secondTerm = await Term.create({
             term: 'Second',
             sessionId: session.id

@@ -8,6 +8,9 @@ const term = require('./term.model');
             autoIncrement: true,
             primaryKey: true
         },
+        numberOfTerms :{
+            type:Sequelize.INTEGER
+        },
         from: {
             type: Sequelize.INTEGER
         },

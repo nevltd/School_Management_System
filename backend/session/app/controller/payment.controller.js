@@ -5,6 +5,10 @@ const sendFeeAmount =require('../transactions/sender');
 
 module.exports = {
     
+    pausePaymentfortTerm: {},
+    continuePaymentforTerm: {},
+    //function should affect other terms after it
+    
     createFee: async (request, response)=>{
         const amount = request.amount
         const classId = request.classId

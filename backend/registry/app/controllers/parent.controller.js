@@ -1,5 +1,5 @@
 const Father = require('../models/father.model')
-const sender = require('../../../parent_service/app/transactions/sender')
+const sender = require('../transaction/sender')
 
 module.exports = {
 
