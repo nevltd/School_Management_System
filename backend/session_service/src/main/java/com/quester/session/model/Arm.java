@@ -8,11 +8,7 @@ public class Arm {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    @ManyToMany(cascade = { CascadeType.ALL })
-    @JoinTable(
-            name = "Form_Arm",
-            joinColumns = { @JoinColumn(name = "arm_id") },
-            inverseJoinColumns = { @JoinColumn(name = "form_id")})
-            Set <Class> classes = new HashSet<>();
+    @ManyToMany(mappedBy = "arms")
+    private Set <Form> forms;
 
 }

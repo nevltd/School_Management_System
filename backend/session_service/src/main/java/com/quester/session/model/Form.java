@@ -4,13 +4,13 @@ import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.util.HashSet;
+
 import java.util.Set;
 
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class Class{
+public class Form {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -21,8 +21,12 @@ public class Class{
     @JoinColumn(name = "sectionId")
     private Section section;
 
-    @ManyToMany(mappedBy = "classes")
-    Set<Arm> arms = new HashSet<>();
+    @ManyToMany
+    @JoinTable(
+            name = "Class_Arm",
+            joinColumns = { @JoinColumn(name = "armId") },
+            inverseJoinColumns = { @JoinColumn(name = "FormId")})
+    private Set<Arm> arms;
 
     public Long getId() {
         return id;
