@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: sms-config-server
+  datasource:
+    url: jdbc:postgresql://localhost:5432/registryservice
+    username: postgres
+    password: 97chocho
+    driver-class-name: org.postgresql.Driver
+    database-platform: org.hibernate.dialect.PostgresSQLDialect
+  profiles:
+    active : dev,postgresql
+  cloud:
+    config:
+      server:
+       git:
+        uri: git@github.com:questertech-co/Sms-config.git
