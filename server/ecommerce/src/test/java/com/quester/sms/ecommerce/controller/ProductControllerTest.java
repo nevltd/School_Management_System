@@ -17,7 +17,7 @@ public class ProductControllerTest {
     public void given_when_home_is_visited_return_200 () throws Exception {
         mvc.perform(get("/")
                         .contentType(MediaType.APPLICATION_JSON))
-                .andExpect(status().isOk())
+                .andExpect(status().isOk());
         
     }
 
