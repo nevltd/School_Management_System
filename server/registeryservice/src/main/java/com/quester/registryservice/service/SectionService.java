@@ -15,8 +15,5 @@ public class SectionService {
     public void changeSectionName(String sectionName, Section section){
         section.setName(sectionName);
     }
-    public void deleteSection(Section section){
-        repository.delete(section);
-    }
-*/
+
 }

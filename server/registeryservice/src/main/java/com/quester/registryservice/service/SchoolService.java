@@ -14,5 +14,6 @@ public class SchoolService {
     public void changeSchoolName(School school,String newSchoolName){
         school.setName(newSchoolName);
     }
+
 */
 }

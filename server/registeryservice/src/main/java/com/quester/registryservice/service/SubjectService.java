@@ -11,6 +11,8 @@ import java.util.Set;
 
 @Service
 public class SubjectService {
+    @Autowired
+    SectionService sectionService;
 
     /*public void createSubject(createSubjectDto createSubjectDto) {
         Set<String> initialSubjects = createSubjectsDtO.getSubjects();
@@ -24,11 +26,13 @@ public class SubjectService {
         }
     }
     public void updateSubjectSection(UpdateSubjectSectionDto updateSubjectSectionDto){
+            boolean allSection  = updateSectionDto.getAllSections(;s
             Set<Subject> initialSubjects = updateSubjectSectionDto.getSubjects();
-            Section section = updateSubjectSectionDto.getSection();
+            Long sectionId = updateSubjectSectionDto.getSectionId();
+            Section section = SectionService.findSection(sectionId)
             List <Subject> subjects = new ArrayList<>();
             subjects.addAll(initialSubjects);
-            String sectionName = updateSubjectSectionDto.getSection().getName();
+
             int count;
             for(count=0;count<subjects.size();count++) {
                 Subject subject = subjects.get(count);
@@ -43,11 +47,8 @@ public class SubjectService {
         return ret;
     }
 
-    public void registerSubjects
-            (Long studentId,Long sessionId, Long formId,Long armId, Set<String> subjects){
-        Session session = sessionRepository.findById(sessionId);
-        SubjectsOffered subjectOffered = new SubjectsOffered(session,formId,subjects);
-        //create subjects offered
-
     }*/
+
+    public void changeSubjectName(Long subjectId String newSubjectName){}
+    
 }

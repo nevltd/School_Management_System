@@ -1,17 +1,36 @@
 package com.quester.registryservice.service;
 
+import com.quester.registryservice.entity.Form;
+import com.quester.registryservice.entity.Section;
+import com.quester.registryservice.repository.ArmRepository;
+import com.quester.registryservice.repository.FormRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class FormService {
-
-    /*public void createForm(Set<Arm> arms, Section section, String formName){
-        Form form = new Form(arms,section,formName);
+    @Autowired
+    public void createForm(FormRepository repository, Section section, String formName){
+        Form form = new Form(section,formName);
         repository.save(form);
     }
-    public void updateFormName(String formName, Form form){
-        form.setName(formName);
+    @Autowired
+    public Form updateForm(FormRepository repository, FormDto formDto){
+        //get form from form repository
+        //if form dto data not equal form data change form data
+        //change will implemented for arms using chec boxes
+
     }
-    public void deleteForm(Form form){
+    @Autowired
+    public void deleteForm(FormRepository repository,Form form){
+        //get form from form repository
         repository.delete(form);
-    }*/
+    }
+    @Autowired
+    public  viewSectionForms(FormRepository repository Section section){
+        //get forms from repository using section id
+    }
+    @Autowired
+    public  viewAllForms(FormRepository repository ){
+        //get forms from repository
+    }
+
 }
