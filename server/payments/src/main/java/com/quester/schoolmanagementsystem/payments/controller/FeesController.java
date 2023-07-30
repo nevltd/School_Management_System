@@ -12,16 +12,18 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping(value="fees")
 public class FeesController {
     @Autowired
     FeeService service;
 
-
-    @GetMapping("/{parentId}")
+    @GetMapping("/")
+    public String hello(){
+        return "hello from payment service";
+    }
+   /* @GetMapping("/{parentId}")
     public List<FeeDetail> getStudentsFeeDetails(@PathVariable Long parentId){
     return service.getStudentsFeeDetails(parentId);
-    }
+    }*/
 
 
     //@GetMapping("/paid")

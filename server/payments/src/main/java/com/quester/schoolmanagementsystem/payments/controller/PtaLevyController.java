@@ -1,6 +1,6 @@
 package com.quester.schoolmanagementsystem.payments.controller;
 
-public class PtaLevy {
+public class PtaLevyController {
     //@GetMapping("/{termId}")
     //get all payments for that term
 

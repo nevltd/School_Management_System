@@ -1,20 +1,20 @@
 package com.quester.schoolmanagementsystem.payments.service;
 
-import com.quester.schoolmanagementsystem.payments.dto.Student;
+/*import com.quester.schoolmanagementsystem.payments.dto.Student;
 import com.quester.schoolmanagementsystem.payments.dto.Term;
 import com.quester.schoolmanagementsystem.payments.dto.TheSession;
 import com.quester.schoolmanagementsystem.payments.entity.DueFee;
 import com.quester.schoolmanagementsystem.payments.dto.FeeDetail;
 import com.quester.schoolmanagementsystem.payments.dto.DueFeeDto;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.quester.schoolmanagementsystem.payments.repository.DueFeeRepository;
+import com.quester.schoolmanagementsystem.payments.repository.DueFeeRepository;*/
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
+/*import java.util.ArrayList;
+import java.util.List;*/
 @Service
 public class FeeService {
-    @Autowired
+  /*  @Autowired
     public DueFeeRepository repository;
     private FeeDetail populateFeeDetails(Student student){
         Long payingTermId = student.getPayingTermId();
@@ -81,7 +81,7 @@ public class FeeService {
             dueFee.setAmountAlreadyPaid(totalAmount);
         }
 
-    }
+    }*/
 
 
 }
