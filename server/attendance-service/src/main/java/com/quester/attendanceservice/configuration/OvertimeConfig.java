@@ -8,27 +8,29 @@ import org.quartz.TriggerBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.Date;
+
 @Configuration
 public class OvertimeConfig {
     @Bean
     public JobDetail overtimeJobDetail() {
         return JobBuilder.newJob(Overtime.class)
-                .withIdentity("dateJob")
+                .withIdentity("OvertimeJob")
                 .build();
     }
 
     @Bean
-    public Trigger overtimeTrigger() {
+    public Trigger startOvertimeTrigger() {
         return TriggerBuilder.newTrigger()
-                .withIdentity("dateTrigger")
-                .startAt(Overtime.eventDate)
+                .withIdentity("startOvertimeTrigger")
+                .startAt(Overtime.eventDate!=null?Overtime.eventDate:new Date())
                 .build();
     }
     @Bean
-    public Trigger endOverTrigger() {
+    public Trigger endOvertimeTrigger() {
         return TriggerBuilder.newTrigger()
-                .withIdentity("dateTrigger")
-                .startAt(Overtime.getNextDay(Overtime.eventDate))
+                .withIdentity("endOvertimeTrigger")
+                .startAt(Overtime.eventDate!=null?Overtime.getNextDay(Overtime.eventDate):new Date())
                 .build();
     }
 }

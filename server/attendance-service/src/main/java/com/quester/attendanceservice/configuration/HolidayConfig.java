@@ -10,27 +10,30 @@ import org.quartz.TriggerBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.Date;
+
 @Configuration
 public class HolidayConfig {
     @Bean
-    public JobDetail dateJobDetail() {
+    public JobDetail holidayJobDetail() {
         return JobBuilder.newJob(PublicHoliday.class)
-                .withIdentity("dateJob")
+                .withIdentity("HolidayJob")
                 .build();
     }
 
     @Bean
     public Trigger startHolidayTrigger() {
         return TriggerBuilder.newTrigger()
-                .withIdentity("dateTrigger")
-                .startAt(Holiday.startDate)
+                .withIdentity("startHolidayTrigger")
+                .startAt(Holiday.startDate !=null ? Holiday.startDate:new Date())
                 .build();
     }
     @Bean
     public Trigger endHolidayTrigger() {
         return TriggerBuilder.newTrigger()
-                .withIdentity("dateTrigger")
-                .startAt(Holiday.resumptionDate)
+                .withIdentity("endHolidayTrigger")
+                .startAt(Holiday.resumptionDate != null?Holiday.resumptionDate:new Date())
                 .build();
     }
+
 }

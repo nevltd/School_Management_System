@@ -2,7 +2,6 @@ package com.quester.attendanceservice.service;
 
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
-import org.quartz.JobExecutionException;
 import org.springframework.cache.annotation.Cacheable;
 
 public class WeekendJob implements Job {
@@ -15,7 +14,7 @@ public class WeekendJob implements Job {
         return !isWeekend;
     }
     @Override
-    public void execute(JobExecutionContext context) throws JobExecutionException {
+    public void execute(JobExecutionContext context)  {
         setIsWeekend();
 
     }

@@ -19,28 +19,30 @@ public class WeekendJobConfig {
         schedulerFactoryBean.setAutoStartup(true);
         return schedulerFactoryBean;
     }
-        @Bean
-        public JobDetail myFridayJobDetail() {
-            return JobBuilder.newJob(WeekendJob.class)
-                    .withIdentity("myFridayJob")
-                    .storeDurably()
-                    .build();
-        }
 
-        @Bean
-        public Trigger weekendJobTrigger() {
-            return TriggerBuilder.newTrigger()
-                    .withIdentity("WeekendJobTrigger")
-                    .withSchedule(cronSchedule("0 0 16 ? * FRI")) // 4 PM every Friday
-                    .build();
-        }
+    @Bean
+    public JobDetail weekendJobDetail() {
+        return JobBuilder.newJob(WeekendJob.class)
+                .withIdentity("WeekendJob")
+                .storeDurably()
+                .build();
+    }
+
+    @Bean
+    public Trigger weekendJobTrigger() {
+        return TriggerBuilder.newTrigger()
+                .withIdentity("startWeekendJobTrigger")
+                .withSchedule(cronSchedule("0 0 16 ? * FRI")) // 4 PM every Friday
+                .build();
+    }
+
     @Bean
     public Trigger weekdayJobTrigger() {
         return TriggerBuilder.newTrigger()
-                .withIdentity("WeekendJobTrigger")
+                .withIdentity("endWeekendJobTrigger")
                 .withSchedule(cronSchedule("0 0 4 ? * MON")) // 4 PM every Friday
                 .build();
     }
-    }
+}
 
 
