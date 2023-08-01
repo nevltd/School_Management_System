@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 
 import java.util.Set;
 
-@FeignClient( url = "http://localhost:8082")
+//@FeignClient( url = "http://localhost:8082")
 public interface RegistryClient {
     ResponseEntity<Set<Student>> getStudentsByParent(Long parentId);
 }
