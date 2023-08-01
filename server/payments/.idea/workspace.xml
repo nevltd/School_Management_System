@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="205235b2-8431-4ad5-8596-3ea34d28baa1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/PaymentsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/controller/ExcursionFeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/controller/FeesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/controller/LessonFeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/controller/OtherFeesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/controller/PtaLevyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/dto/DueFeeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/dto/FeeDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/dto/Form.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/dto/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/dto/Term.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/dto/TheSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/entity/DueExtraChargeFee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/entity/DueFee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/entity/DueLessonFees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/entity/DueOtherFees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/entity/DuePtaLevy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/repository/DueFeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/schoolmanagementsystem/payments/service/FeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/quester/schoolmanagementsystem/payments/PaymentsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/quester/schoolmanagementsystem/payments/TestControllers/TestFeesController.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2TIxbzRsGCSXyaCPW9q4g42fEqB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/nnamdi/School_Management_System/server/payments-service"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.PaymentsApplication">
+    <configuration name="PaymentsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quester.schoolmanagementsystem.payments.PaymentsApplication" />
+      <module name="payments-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quester.schoolmanagementsystem.payments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFeesController.testHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="payments-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quester.schoolmanagementsystem.payments.TestControllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.quester.schoolmanagementsystem.payments.TestControllers" />
+      <option name="MAIN_CLASS_NAME" value="com.quester.schoolmanagementsystem.payments.TestControllers.TestFeesController" />
+      <option name="METHOD_NAME" value="testHello" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PaymentsApplication" />
+        <item itemvalue="JUnit.TestFeesController.testHello" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="205235b2-8431-4ad5-8596-3ea34d28baa1" name="Changes" comment="" />
+      <created>1690744486426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690744486426</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58615f65-d516-4bff-b6cf-cab3c6137f64" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../payments/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/PaymentsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/controller/ExcursionFeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/controller/FeesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/controller/LessonFeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/controller/OtherFeesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/controller/PtaLevyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/dto/DueFeeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/dto/FeeDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/dto/Form.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/dto/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/dto/Term.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/dto/TheSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/entity/DueExtraChargeFee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/entity/DueFee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/entity/DueLessonFees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/entity/DueOtherFees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/entity/DuePtaLevy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/repository/DueFeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/java/com/quester/schoolmanagementsystem/payments/service/FeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/test/java/com/quester/schoolmanagementsystem/payments/PaymentsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payments/src/test/java/com/quester/schoolmanagementsystem/payments/TestControllers/TestFeesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/RegistryServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/controller/ArmController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/controller/CompulsorySubjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/controller/FormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/controller/SchoolController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/controller/SchoolGroupController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/controller/SectionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/controller/SubjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/controller/SubjectResultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/controller/TermController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/controller/TheSessionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/controller/TopicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/dataTransferObject/ArmDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/dataTransferObject/NewSessionRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/dataTransferObject/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/dataTransferObject/sectionDetailsDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/entity/Arm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/entity/Assessment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/entity/CompulsorySubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/entity/Form.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/entity/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/entity/SchoolGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/entity/Section.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/entity/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/entity/Term.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/entity/TheSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/entity/Topic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/AggregateResultRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/ArmRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/AssessmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/CompulsorySubjectRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/ExternalExamFeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/ExtraChargeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/FeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/FineRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/FormRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/LessonFeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/PtaLevyRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/ResultRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/SchoolGroupRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/SchoolRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/ScoreRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/SectionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/SubjectRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/SubjectResultRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/TermRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/TheSessionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/repository/TopicRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/service/ArmService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/service/CompulsorySubjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/service/FormService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/service/SchoolGroupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/service/SchoolService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/service/SectionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/service/SubjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/service/TermService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/service/TheSessionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quester/registryservice/service/TopicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/quester/registryservice/RegistryServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/quester/registryservice/integrationTests/SchoolGroupTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/quester/registryservice/serviceTests/SchoolGroupServiceTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2TN5qF41okbxxnq9GOIgUY0uuGH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/nnamdi/School_Management_System/server/registery-service"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58615f65-d516-4bff-b6cf-cab3c6137f64" name="Changes" comment="" />
+      <created>1690870891122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690870891122</updated>
+    </task>
+    <servers />
+  </component>
+</project>
